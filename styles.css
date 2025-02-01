@@ -76,3 +76,33 @@ body{
         padding: 10px;
     }
 }
+
+@media screen and (width: 1080px) and (height: 2040px) {
+    .container{
+        width: 80%;
+        height: 80vh;
+        padding: 40px;
+        gap:250px;
+    }
+
+    .user-value , .computer-value{
+        font-size: 2em;
+    }
+
+    .img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .result{
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .btn{
+        font-size: 2em;
+        padding: 20px 40px;
+    }
+
+
+}
