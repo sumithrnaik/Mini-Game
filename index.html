@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/pageicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock-Paper-Scissor</h1>
+
+        <div class="display">
+            <div class="you">
+                <img src="images/Paper.png" alt="img" id="user-img" class="img">
+                <p class="user-value" id="user-value" >Paper</p>
+                <p style="color: lightgreen;">You</p>
+            </div>
+            <div class="computer">
+                <img src="images/Rock.png" alt="img" id="computer-img" class="img">
+                <p class="computer-value" id="computer-value" >Rock</p>
+                <p style="color: red;">Computer</p>
+            </div>
+        </div>
+
+        <div class="result" id="result">You Win!!</div>
+
+        <div class="choice">
+            <button onclick="rock()" id="rockbtn" value="Rock" class="btn">Rock</button>
+            <button onclick="paper()" id="paperbtn" value="Paper" class="btn">Paper</button>
+            <button onclick="scissor()" id="scissorbtn" value="Scissors" class="btn">Scissors</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
